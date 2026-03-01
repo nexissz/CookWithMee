@@ -255,16 +255,21 @@ td {
       float: none;
       display: block;
       text-align: center;
-    }
-	    table {
+   
+	table {
         width: 100%;
-        font-size: 12px;
+        font-size: 11px;
     }
 
-    /* Les cellules plus compactes */
     table td {
-        padding: 5px;
+        padding: 4px;
         text-align: center;
+        word-break: break-word;
     }
+	.jury {
+    overflow-x: auto;
+}
+}
 
 }
+
