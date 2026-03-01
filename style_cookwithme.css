@@ -256,4 +256,15 @@ td {
       display: block;
       text-align: center;
     }
+	    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* Les cellules plus compactes */
+    table td {
+        padding: 5px;
+        text-align: center;
+    }
+
 }
