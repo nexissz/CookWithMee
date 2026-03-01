@@ -1,0 +1,259 @@
+header {
+  background-color:rgb(173, 85, 85);
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-family: Josefin Sans, sans-serif;
+}
+
+footer {
+  background-color:rgb(197, 159, 87);
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: Josefin Sans, sans-serif;
+}
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+nav {
+  background-color: #5a1a1a;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgba(224, 63, 63, 0.74);
+  margin-right: 200px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: rgb(197, 159, 87);
+}
+ 
+nav a.active {
+  color: rgb(197, 159, 87);
+  padding: 1px;
+}
+
+body {
+  background-color: #fdf6ee;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #333;
+}
+
+.container_articles {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+}
+
+.article1 {
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #a89e91;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+.titre_article1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: rgb(173, 85, 85);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.description_article1 {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #4b4848;
+  margin-bottom: 40px;
+}
+
+.anecdote {
+  background-color: rgb(143, 109, 109);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.fin {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #4b4848;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+}
+
+.article2 {
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #a89e91;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+.titre_article2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: rgb(173, 85, 85);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.description_article2 {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #4b4848;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 16px;
+  color: #1d1c1c;
+  margin-bottom: 30px;
+}
+
+.Part {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.Description_part {
+  padding: 15px;
+}
+
+.entrée1{
+  padding: 0 20px;
+  background-color: #a89e91;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.titre_entrée1{
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: rgb(173, 85, 85);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.recette_entrée1{
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+.img_taboulé {
+  float: center;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.titre_plat1{
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: rgb(173, 85, 85);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.plat1{
+  padding: 0 20px;
+  background-color: #a89e91;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.Ingrédients_plat1{
+  border-radius: 15px;
+  margin: 30px ;
+}
+
+.Préparation_plat1{
+  border-radius: 15px;
+  margin: 20px ;
+  padding: 10px;
+}
+
+.titre_dessert1{
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: rgb(173, 85, 85);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.dessert1{
+  padding: 0 20px;
+  background-color: #a89e91;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.Ingrédients_dessert1{
+  border-radius: 15px;
+  margin: 30px ;
+}
+
+.Préparation_dessert1{
+  border-radius: 15px;
+  margin: 20px ;
+  padding: 10px;
+}
+
+td {
+	border: 1px solid rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .container_articles {
+      flex-direction: column;
+    }
+
+    nav a {
+      margin-right: 15px;
+      font-size: 12px;
+    }
+
+    header {
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .titre_article1, .titre_article2 {
+      font-size: 26px;
+    }
+
+    .img_taboulé {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+}
